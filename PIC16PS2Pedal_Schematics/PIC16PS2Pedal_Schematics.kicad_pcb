@@ -116,7 +116,7 @@
 			)
 		)
 		(property "Value" "PS/2 Cable"
-			(at 2.58 -4 0)
+			(at 2.58 -4.5 0)
 			(layer "F.Fab")
 			(uuid "d674992f-eccb-40d3-873f-000a7497b5d5")
 			(effects
@@ -380,17 +380,6 @@
 			(layer "F.Fab")
 			(uuid "d7318108-6f0b-43e2-a06a-802c45735823")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 8.04 2.5 0)
-			(layer "F.Fab")
-			(uuid "25e143ec-5ee8-4434-b1db-fd588e505b63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 5.08 -2.16 90)
 			(size 1.1 1.1)
@@ -463,6 +452,7 @@
 		(property "Reference" "R3"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bd3ccab9-1c2e-4d20-8dcb-75855c765188")
 			(effects
 				(font
@@ -472,7 +462,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 3.81 2.37 0)
+			(at 2.23 0 0)
 			(layer "F.Fab")
 			(uuid "e8b89aed-498a-435b-b7e1-56f346c9d891")
 			(effects
@@ -687,7 +677,7 @@
 			(uuid "64c7318b-1d37-4649-950d-2d44e19717bd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 5.73 0 0)
 			(layer "F.Fab")
 			(uuid "c381c0cd-7e63-45d7-b768-25ee9468af2b")
 			(effects
@@ -1033,7 +1023,7 @@
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 0)
+			(at -0.65 4.5 0)
 			(layer "F.SilkS")
 			(uuid "7e4df58e-84a0-486f-a869-737eba0fbf8a")
 			(effects
@@ -1267,6 +1257,7 @@
 		(property "Reference" "R1"
 			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cc262ae8-9482-4978-9096-da14e15c6cbb")
 			(effects
 				(font
@@ -1276,7 +1267,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 3.81 2.37 90)
+			(at 2.12 -0.08 90)
 			(layer "F.Fab")
 			(uuid "b7d86754-49ba-4973-b15c-44180228b6e9")
 			(effects
@@ -1491,7 +1482,7 @@
 			(uuid "bb13cdd8-d824-4f66-b920-b08af59079d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 5.62 0 90)
 			(layer "F.Fab")
 			(uuid "09b0a2d7-59a3-48db-b4c7-ba6b90f102c9")
 			(effects
@@ -1551,7 +1542,7 @@
 			)
 		)
 		(property "Value" "PIC16F628A-ISO"
-			(at -2.88 10.12 0)
+			(at 3.12 10.12 0)
 			(layer "F.Fab")
 			(uuid "8291f09c-e0d7-47e6-80c8-cd34bd87365c")
 			(effects
@@ -1837,7 +1828,7 @@
 			(uuid "232a965d-1892-4d2b-a891-d2b3d8dff16b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 10.16 0)
+			(at 4.62 10.2 0)
 			(layer "F.Fab")
 			(uuid "1068395d-0dc0-4495-a389-a4e35b9384bd")
 			(effects
@@ -2064,7 +2055,7 @@
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 0)
+			(at -0.65 4.23 0)
 			(layer "F.SilkS")
 			(uuid "9c65c886-6e4c-4b1d-9bc2-15a8fa8da6b6")
 			(effects
@@ -2298,6 +2289,7 @@
 		(property "Reference" "R2"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9f7d6e73-51cc-4e7f-88f4-0825d8b64408")
 			(effects
 				(font
@@ -2307,7 +2299,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 3.81 2.37 0)
+			(at 5.39 0 0)
 			(layer "F.Fab")
 			(uuid "72c183e3-5d2f-4b40-acae-15fc45ecbb57")
 			(effects
@@ -2522,7 +2514,7 @@
 			(uuid "d802d872-a9e6-49ed-a3c4-49d7f125d144")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 1.89 0 0)
 			(layer "F.Fab")
 			(uuid "32309d5a-5974-4265-be1f-2e2dd9bb88bb")
 			(effects

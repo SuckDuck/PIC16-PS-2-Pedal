@@ -25,7 +25,7 @@ vscode extension. So, for using or editing this repository or similar ones, it w
 ## How to use it
 
 The pedal has three shortcuts for working with `Express Scribe`. If it is pressed once, it triggers the `F9` key,
-or the `F8` key, which are the default keys for play and pause in `Express Scribe`. If it is pressed and held, it
+or the `F4` key, which are the default keys for play and pause in `Express Scribe`. If it is pressed and held, it
 continuously triggers the `F7` key for rewind. Finally, if it is quickly double-pressed and then held, it 
 triggers the `F8` key for fast forward. If you want to change those shortcuts just change the next lines for the
 keys you want:
